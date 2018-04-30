@@ -48,7 +48,6 @@ public class DetailMovieActivity extends AppCompatActivity {
         final String overview = detailMovie.getStringExtra("overview");
         final String release = detailMovie.getStringExtra("release_date");
         final String poster_path = detailMovie.getStringExtra("poster");
-//        final String imageLoad = url
 
         Glide.with(DetailMovieActivity.this)
 
